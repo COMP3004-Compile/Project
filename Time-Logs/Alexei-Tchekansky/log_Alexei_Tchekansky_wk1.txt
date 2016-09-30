@@ -1,0 +1,6 @@
+- Met with the group on Friday the 23rd of September to prepare D1.
+- Worked on functional and non-functional requirements.
+- Created a power point slide for the presentation for D1.
+- Did some research on the repositories that are available for us to use.
+
+Total time spent: 2 hours.
