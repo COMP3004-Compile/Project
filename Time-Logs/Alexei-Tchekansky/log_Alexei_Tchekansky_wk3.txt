@@ -1,0 +1,3 @@
+- Learned how to use Android Studio by following online tutorials.
+- Started to code activity that gets the GPS location.
+Total time spent: 7 hours.
