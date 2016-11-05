@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_create_post"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5e3b22"
+    tools:context="com.example.android.projectuiprototype.CreatePost"
+    android:gravity="center">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="75dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:padding="25dp"
+        android:gravity="center_horizontal">
+
+
+        <TextView
+            android:text="Types of food to order:"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <Spinner
+            android:id="@+id/select_cuisine0"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:entries="@array/cuisine_options"
+            android:background="#DDDDDD"
+            android:layout_margin="10dp">
+        </Spinner>
+        <Spinner
+            android:id="@+id/select_cuisine1"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:entries="@array/cuisine_options"
+            android:background="#DDDDDD"
+            android:layout_margin="10dp">
+        </Spinner>
+        <TextView
+            android:text="Ordering how soon"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <Spinner
+            android:id="@+id/select_orderTime"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:entries="@array/time_options"
+            android:background="#DDDDDD"
+            android:layout_margin="10dp">
+        </Spinner>
+        <TextView
+            android:text="I can pay for my part by..."
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <CheckBox
+            android:id="@+id/check_credit"
+            android:text="Credit Card"
+            android:textSize="25sp"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"/>
+        <CheckBox
+            android:id="@+id/check_cash"
+            android:text="Cash"
+            android:textSize="25sp"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="20dp">
+
+        <ImageButton
+            android:id="@+id/newPost_backButton"
+            android:onClick="backButton"
+            android:background="@drawable/back_button"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"/>
+
+        <ImageButton
+            android:id="@+id/newPost_submitButton"
+            android:onClick="submitButton"
+            android:background="#55FF55"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

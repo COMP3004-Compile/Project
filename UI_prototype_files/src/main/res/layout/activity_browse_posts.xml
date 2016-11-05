@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_browse_posts"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#5e3b22"
+    tools:context="com.example.android.projectuiprototype.BrowsePosts">
+
+
+
+    <ScrollView
+        android:id="@+id/post_scroll_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="#00000000"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="50dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/post_holder_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <LinearLayout
+                android:id="@+id/post0"
+                android:layout_width="350dp"
+                android:layout_height="65dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@drawable/box_background"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/post0_name"
+                    android:text="name"
+                    android:textSize="20sp"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/post0_time"
+                    android:text="15m"
+                    android:textSize="20sp"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp" />
+                <ImageView
+                    android:id="@+id/post0_cuisine0"
+                    android:textSize="20dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/cuisine_burger"/>
+                <ImageView
+                    android:id="@+id/post0_cuisine1"
+                    android:textSize="20dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/cuisine_pizza"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/post1"
+                android:layout_width="350dp"
+                android:layout_height="65dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@drawable/box_background"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/post1_name"
+                    android:text="name"
+                    android:textSize="20dp"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/post1_time"
+                    android:text="15m"
+                    android:textSize="20dp"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp" />
+                <ImageView
+                    android:id="@+id/post1_cuisine0"
+                    android:textSize="20dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/cuisine_burger"/>
+                <ImageView
+                    android:id="@+id/post1_cuisine1"
+                    android:textSize="20dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/cuisine_pizza"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/post2"
+                android:layout_width="350dp"
+                android:layout_height="65dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@drawable/box_background"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/post2_name"
+                    android:text="name"
+                    android:textSize="20dp"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/post2_time"
+                    android:text="15m"
+                    android:textSize="20dp"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp" />
+                <ImageView
+                    android:id="@+id/post2_cuisine0"
+                    android:textSize="20dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/cuisine_burger"/>
+                <ImageView
+                    android:id="@+id/post2_cuisine1"
+                    android:textSize="20dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/cuisine_pizza"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/post3"
+                android:layout_width="350dp"
+                android:layout_height="65dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@drawable/box_background"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/post3_name"
+                    android:text="name"
+                    android:textSize="20dp"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/post3_time"
+                    android:text="15m"
+                    android:textSize="20dp"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp" />
+                <ImageView
+                    android:id="@+id/post3_cuisine0"
+                    android:textSize="20dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/cuisine_burger"/>
+                <ImageView
+                    android:id="@+id/post3_cuisine1"
+                    android:textSize="20dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/cuisine_pizza"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/post4"
+                android:layout_width="350dp"
+                android:layout_height="65dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@drawable/box_background"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/post4_name"
+                    android:text="name"
+                    android:textSize="20dp"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/post4_time"
+                    android:text="15m"
+                    android:textSize="20dp"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp" />
+                <ImageView
+                    android:id="@+id/post4_cuisine0"
+                    android:textSize="20dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/cuisine_burger"/>
+                <ImageView
+                    android:id="@+id/post4_cuisine1"
+                    android:textSize="20dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/cuisine_pizza"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/post5"
+                android:layout_width="350dp"
+                android:layout_height="65dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@drawable/box_background"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/post5_name"
+                    android:text="name"
+                    android:textSize="20sp"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/post5_time"
+                    android:text="15m"
+                    android:textSize="20sp"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp" />
+                <ImageView
+                    android:id="@+id/post5_cuisine0"
+                    android:textSize="20dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/cuisine_burger"/>
+                <ImageView
+                    android:id="@+id/post5_cuisine1"
+                    android:textSize="20dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/cuisine_pizza"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/post6"
+                android:layout_width="350dp"
+                android:layout_height="65dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@drawable/box_background"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/post6_name"
+                    android:text="name"
+                    android:textSize="20dp"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/post6_time"
+                    android:text="15m"
+                    android:textSize="20dp"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp" />
+                <ImageView
+                    android:id="@+id/post6_cuisine0"
+                    android:textSize="20dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/cuisine_burger"/>
+                <ImageView
+                    android:id="@+id/post6_cuisine1"
+                    android:textSize="20dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/cuisine_pizza"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/post7"
+                android:layout_width="350dp"
+                android:layout_height="65dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@drawable/box_background"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/post7_name"
+                    android:text="name"
+                    android:textSize="20dp"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/post7_time"
+                    android:text="15m"
+                    android:textSize="20dp"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp" />
+                <ImageView
+                    android:id="@+id/post7_cuisine0"
+                    android:textSize="20dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/cuisine_burger"/>
+                <ImageView
+                    android:id="@+id/post7_cuisine1"
+                    android:textSize="20dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/cuisine_pizza"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/post8"
+                android:layout_width="350dp"
+                android:layout_height="65dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@drawable/box_background"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/post8_name"
+                    android:text="name"
+                    android:textSize="20dp"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/post8_time"
+                    android:text="15m"
+                    android:textSize="20dp"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp" />
+                <ImageView
+                    android:id="@+id/post8_cuisine0"
+                    android:textSize="20dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/cuisine_burger"/>
+                <ImageView
+                    android:id="@+id/post8_cuisine1"
+                    android:textSize="20dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/cuisine_pizza"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/post9"
+                android:layout_width="350dp"
+                android:layout_height="65dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@drawable/box_background"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/post9_name"
+                    android:text="name"
+                    android:textSize="20dp"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/post9_time"
+                    android:text="15m"
+                    android:textSize="20dp"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp" />
+                <ImageView
+                    android:id="@+id/post9_cuisine0"
+                    android:textSize="20dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/cuisine_burger"/>
+                <ImageView
+                    android:id="@+id/post9_cuisine1"
+                    android:textSize="20dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/cuisine_pizza"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/browsePosts_myPost"
+        android:background="@drawable/browse_my_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <ImageButton
+            android:id="@+id/browsePosts_contactAlertButton"
+            android:background="@drawable/contact_alert"
+            android:layout_width="200dp"
+            android:layout_height="125dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            />
+
+        <ImageButton
+            android:id="@+id/browsePosts_backButton"
+            android:onClick="backButton"
+            android:background="@drawable/back_button"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
