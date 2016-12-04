@@ -1,0 +1,1 @@
+Contains code which returns the location, latitide and latitude, every 10 seconds using a timer class and Android API.
