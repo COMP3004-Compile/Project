@@ -1,0 +1,4 @@
+- Attempted to get firebase messaging to work using google cloud engine.
+- Met with the group.
+
+Total time spent: 9 hours.
