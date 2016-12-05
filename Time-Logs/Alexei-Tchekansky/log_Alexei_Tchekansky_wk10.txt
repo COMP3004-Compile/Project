@@ -1,0 +1,4 @@
+- Started to code alternate activity which uses Android Location Services and gets GPS coordinates as requested by the TA for something to add to the app.\
+- Met with the group.
+
+Total time spent: 15 hours
