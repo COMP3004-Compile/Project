@@ -1,0 +1,4 @@
+- Looked into firebase messaging.
+- Met with the group.
+
+Total time spent: 5 hours.
