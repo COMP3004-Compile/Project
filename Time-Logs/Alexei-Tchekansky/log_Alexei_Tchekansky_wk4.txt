@@ -1,0 +1,4 @@
+- Contiued to code activity that gets the GPS location using google play services.
+- Met with the group.
+
+Total time spent: 10 hours.
