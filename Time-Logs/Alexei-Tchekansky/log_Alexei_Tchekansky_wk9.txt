@@ -1,0 +1,4 @@
+- Added code which converts GPS coordinates (longigute and latitude) into a postal code in the Google Play GPS activity.
+- Met with the group.
+
+Total time spent: 7 hours.
