@@ -1,0 +1,29 @@
+time in hours
+
+M - 28 - 11
+-------------
+1 - preparing D3
+
+T - 29 - 11
+-------------
+1 - working on UI
+
+W - 30 - 11
+-------------
+2 - preparing D3
+
+T - 01 - 12
+-------------
+1 - working on UI
+
+F - 02 - 12
+-------------
+2 - team meeting
+2 - working on UI
+
+S - 03 - 12
+-------------
+
+S - 04 - 12
+-------------
+6 - working on UI

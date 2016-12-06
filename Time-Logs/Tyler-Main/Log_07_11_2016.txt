@@ -1,0 +1,29 @@
+time in hours
+
+M - 07 - 11
+-------------
+
+T - 08 - 11
+-------------
+1 - building UI
+
+W - 09 - 11
+-------------
+2 - building UI
+
+T - 10 - 11
+-------------
+
+F - 11 - 11
+-------------
+2 - team meeting
+3 - building UI
+
+S - 12 - 11
+-------------
+2 - building UI
+1 - preparing D2
+
+S - 13 - 11
+-------------
+4 - preparing D2 + UI

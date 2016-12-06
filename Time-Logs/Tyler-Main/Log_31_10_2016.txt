@@ -1,0 +1,26 @@
+time in hours
+
+M - 31 - 10
+-------------
+4 - planning prototype structure
+
+T - 01 - 11
+-------------
+
+W - 02 - 11
+-------------
+
+T - 03 - 11
+-------------
+
+F - 04 - 11
+-------------
+2 - team meeting
+
+S - 05 - 11
+-------------
+3 - planning, and constructing UI
+
+S - 06 - 11
+-------------
+2 - building UI
