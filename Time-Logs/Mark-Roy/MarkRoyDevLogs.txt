@@ -1,0 +1,146 @@
+Mark Roy Dev Logs - Backend Development
+////////////////////////////////////////////////
+###Week 1###
+
+- Friday Sept 23 2016:
+	2 hours - Group meeting
+
+- Sunday Sept 25 2016:
+	1 hour - Prepared slides
+	
+	
+////////////////////////////////////////////////
+###Week 2###
+
+- Monday Sept 26 2016:
+	1 hour - Reviewed presentation
+	
+- Friday Sept 30 2016:
+	2 hours - Group meeting
+	
+- Sunday Oct 2 2016:
+	2 hours - Setup DynamoDB(Amazon Database)
+
+////////////////////////////////////////////////
+###Week 3###
+
+- Friday Oct 7 2016:
+	2 hours - Group meeting
+	
+- Saturday Oct 8 2016:
+	2 hours - Tried to Query DynamoDB based off attributes, can only Query based off primary key, need a relational database.
+		It worked although all entries must be pulled from the table and sorted, using as a temp database for other members
+		to use for GUI development and testing. 
+
+////////////////////////////////////////////////
+###Week 4###
+
+- Friday Oct 14 2016:
+	2 hours - Group meeting
+	
+- Saturday Oct 15 2016:
+	4.5 hours - Explored other options for back end databases.
+
+////////////////////////////////////////////////
+###Week 5###
+
+- Friday Oct 21 2016:
+	2 hours - Group meeting
+	
+- Saturday Oct 22 2016:
+	2 hours - Setup Amazon's RDS (Relational Database Service).
+	
+- Sunday Oct 23 2016:
+	0.5 hour - Designed the database tables and column fields.
+
+////////////////////////////////////////////////
+###Week 6###
+
+- Reading Week
+
+////////////////////////////////////////////////
+###Week 7###
+
+- Monday Oct 31 2016L
+	1 hour - Did CRUD operations to the database in Java.
+	
+- Friday Nov 4 2016:
+	2 hours - Group meeting
+	
+- Saturday Nov 5 2016:
+	3 hour - Tried to do CRUD operations to the database in Android Studio, unsupported to do directly, must have a middle man interface,
+			Also don't want to give users direct access to the Database.
+	
+////////////////////////////////////////////////
+###Week 8###
+
+- Friday Nov 11 2016:
+	2 hours - Group meeting
+
+- Saturday Nov 12 2016:
+	6 hours - Explored ways to have an interface for the users to interact with, this interace will Query the database and then return the results back to the user.
+			Tried Lambda functions on AWS and a PhP server.
+			
+- Sunday Nov 13 2016:
+		1 hour - Decided on having the users send HTTP Post Requests to a PhP Server, then have the PhP Server form an SQL statement based off the user'S request,
+		then the PhP Server will Query the MySQL Database, then MySQL Database will return results back to the PhP Server. The PhP Server will then send these results back to the client
+		This implements the Facade Design pattern as the PhP Server is acting as an interface between the Client and MySQL Database. 
+		Android Client -> PhP Server -> MySQL Database -> PhP Server -> Android Client
+
+	
+////////////////////////////////////////////////
+###Week 9###
+
+- Monday Nov 14 2016:
+	2.5 hour  - Setup Local PhP Server and MySQL Database using wampServer, uses same port as skype, server must be started first for development.
+	
+- Monday Nov 14 2016:
+	0.5 hour - Designed the MySQL database tables and column fields
+	
+- Tuesday Nov 15 2016:
+	3.5 hours - Wrote the PhP scripts to interact with the database, forming SQL statements using user input from HTTP Post Requests
+	
+- Tuesday Nov 15 2016:
+	2 hours - Wrote Java code to send HTTP Requests to the local PhP Server
+	
+- Wednesday Nov 16 2016:
+	2 hours - Changed the database location to the RDS Database hosted on AWS, had to allow ports on Amazon for successful queries
+
+- Wednesday Nov 17 2016:
+	1 hour - Researched ways to host the PhP Server, 000webhost was a free option but chose to use Amazon's ElastikBeanstalk
+	
+- Friday Nov 18 2016:
+	2 hours - Group meeting
+
+- Saturday Nov 19 2016:
+	3 hours - Setup PhP Server on ElastikBeanstalk, once again ports needed to be opened, was able to send requests to the online server, which Queried the online database.
+
+////////////////////////////////////////////////
+###Week 10###
+
+- Friday Nov 25 2016:
+	2 hours - Group meeting
+
+- Saturday Nov 26 2016:
+	2 hours - Added error checking and data sanitization to prevent SQL injection in the PhP scripts
+
+- Wednesday Nov 30 2016:
+	4 hours - Worked with the team to send HTTP Requests from Android Studio
+
+- Thursday Dec 1 2016:
+	2 hours - Added database fields and post variables required to support front end's needs.
+	
+////////////////////////////////////////////////
+###Week 11###
+
+- Friday Dec 2 2016:
+	2 hours - Group meeting
+	
+- Saturday Dec 3 2016:
+	2.5 hours - Explored SMS messaging in Android Studio
+	
+////////////////////////////////////////////////
+###Week 12###
+
+- Monday Dec 5 2016:
+	3 hours - Prepared for presentation, wrote backend portion of the report.
